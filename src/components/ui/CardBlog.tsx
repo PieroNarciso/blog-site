@@ -32,7 +32,7 @@ const CardBlog: React.FC<CardBlogProps> = ({
             ))}
           </div>
           <div className="flex flex-row-reverse">
-            <Link className="bg-primary-dark px-2 py-1 rounded text-white font-medium" to={path}>Go to blog</Link>
+            <Link className="bg-primary-dark px-2 py-1 rounded text-white font-medium" to={path}>Ir al blog</Link>
           </div>
         </div>
       </div>

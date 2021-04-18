@@ -5,10 +5,10 @@ import Layout from "../components/Layout";
 
 export default function BlogTemplate({ data }) {
   const { markdownRemark } = data;
-  const { frontmatter, html } = markdownRemark;
+  const { frontmatter ,html } = markdownRemark;
   return (
     <Layout>
-      <div className="mx-4 sm:mx-auto mt-4 mb-4">
+      <div className="mx-4 sm:mx-auto mt-4 mb-6">
         <h1 className="text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           {frontmatter.title}
         </h1>
@@ -17,7 +17,7 @@ export default function BlogTemplate({ data }) {
           {frontmatter.date}
         </span>
         <div
-          className="prose lg:prose-lg mt-3 mx-auto"
+          className="prose prose-blue lg:prose-lg mt-3 mx-auto mt-10"
           dangerouslySetInnerHTML={{ __html: html }}
         ></div>
       </div>
