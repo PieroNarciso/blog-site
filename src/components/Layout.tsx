@@ -6,7 +6,7 @@ const Layout: React.FC = ({ children }) => {
   return (
     <Fragment>
       <NavBar></NavBar>
-      <div>
+      <div className="mx-4 sm:mx-auto mt-24 mb-6">
         {children}
       </div>
     </Fragment>

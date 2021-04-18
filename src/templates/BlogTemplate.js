@@ -8,7 +8,7 @@ export default function BlogTemplate({ data }) {
   const { frontmatter ,html } = markdownRemark;
   return (
     <Layout>
-      <div className="mx-4 sm:mx-auto mt-4 mb-6">
+      <div>
         <h1 className="text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           {frontmatter.title}
         </h1>

@@ -26,7 +26,7 @@ const Home: React.FC<HomeProps> = ({ data }) => {
 
   return (
     <Layout>
-      <div className="mt-6 mb-4 mx-4 grid grid-cols-1 gap-y-6 gap-x-8 mx-3 sm:grid-cols-2 justify-items-center max-w-2xl xl:max-w-5xl md:mx-auto">
+      <div className="grid grid-cols-1 gap-y-6 gap-x-8 mx-3 lg:grid-cols-2 justify-items-center max-w-2xl xl:max-w-5xl md:mx-auto">
         {projects.map((project) => (
           <CardBlog
             title={project.frontmatter.title}
