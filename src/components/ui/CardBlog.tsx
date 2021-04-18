@@ -4,7 +4,6 @@ import { Link } from "gatsby";
 interface CardBlogProps {
   title: string;
   description: string;
-  keywords?: string[];
   path: string;
   className?: string;
 }
@@ -13,7 +12,6 @@ const CardBlog: React.FC<CardBlogProps> = ({
   title,
   path,
   description,
-  keywords,
   className,
 }) => {
   return (
@@ -23,16 +21,13 @@ const CardBlog: React.FC<CardBlogProps> = ({
           {title}
         </h1>
       </div>
-      <div className="bg-primary-light px-2 pb-3 pt-2">
+      <div className="bg-primary-light px-2 pb-3 pt-2 text-gray-800">
         <p>{description}</p>
         <div>
           <div>
-            {keywords?.map((keyword, id) => (
-              <div key={id}>{keyword}</div>
-            ))}
           </div>
           <div className="flex flex-row-reverse">
-            <Link className="bg-primary-dark px-2 py-1 rounded text-white font-medium" to={path}>Ir al blog</Link>
+            <Link className="mt-3 bg-primary-dark hover:bg-primary-darker px-2 py-1 rounded text-white font-medium" to={path}>Ir al blog</Link>
           </div>
         </div>
       </div>

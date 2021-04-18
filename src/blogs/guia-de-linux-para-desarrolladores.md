@@ -2,6 +2,7 @@
 slug: "/blog/guia-de-linux-para-desarrolladores"
 date: "2021-04-18"
 description: "Linux (GNU/Linux) es indiscutiblemente el sistema operativo usado en los servidores alrededor del mundo. Teniendo el mayor market share. Por lo tanto, nosotros como desarrolladores comunmente estaremos despegando aplicativos web, APIs, y otros servicios a la nube que lo más probable es que esté corriendo alguna distribución de linux."
+keywords: "linux,entorno de escritorio,desarrollador,developer,ubuntu,arch linux"
 title: "Guía de Linux para desarrolladores"
 ---
 

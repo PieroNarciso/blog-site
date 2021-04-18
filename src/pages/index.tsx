@@ -11,6 +11,7 @@ interface HomeProps {
         frontmatter: {
           date: string;
           slug: string;
+          keywords: string;
           description: string;
           title: string;
         };
