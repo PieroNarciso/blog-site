@@ -1,6 +1,7 @@
 ---
 slug: "/blog/dotfiles"
 date: "2021-04-17"
+description: "This is another description"
 title: "Setup Dotfiles"
 ---
 
