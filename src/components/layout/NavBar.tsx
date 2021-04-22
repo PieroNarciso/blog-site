@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 const NavBar: React.FC = () => {
   return (
     <nav className="flex justify-between px-3 py-4 items-center bg-primary shadow-lg fixed top-0 w-full z-10">
-      <Link className="text-xl text-white font-semibold" to="/">
+      <Link className="text-xl text-gray-100 font-semibold" to="/">
         Piero's Blog
       </Link>
       <div>
