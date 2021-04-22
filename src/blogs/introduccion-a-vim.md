@@ -3,7 +3,7 @@ slug: "/blog/introduccion-al-editor-de-texto-vim"
 date: "2021-04-22"
 description: "Vim es un editor de texto de terminal, que corre en sistemas basados en Unix, como OSx y Linux. Es el sucesor de VI, un editor de texto que tiene más de 27 años vigente. A parte de las funcionalidades de VI, lleva consigo features extras que lo hacen ser bastante customizable y poder extender sus capacidades."
 keywords: "vim,vi,linux,unix,editor de texto,texto editor,windows"
-title: "Introduccion al Editor de Texto VIM"
+title: "Introducción al Editor de Texto VIM"
 ---
 
 ## ¿Qué es VIM?
