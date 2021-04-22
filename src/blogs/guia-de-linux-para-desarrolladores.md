@@ -32,7 +32,7 @@ Las distros más populares son las siguientes:
 8. Manjaro
 9. Arch Linux
 
-En lo personal, recomiendo comenzar con Pop OS, o una distribución basado en <a href="https://ubuntu.com/download/flavours" target="_blank">Ubuntu/Debian</a> como: Linux Mint, MX Linux, u otros que no son mencionados en este post. Esto debido a que Pop OS, en caso se tenga una gráfica Nvidia, ya viene con los drivers en la instalación. Además, como es basado en Ubuntu, tiene bastante información útil por la comunidad; ya que, Ubuntu es la distro más usada actualmente.
+En lo personal, recomiendo comenzar con Pop OS, o una distribución basado en <a rel="noreferrer" href="https://ubuntu.com/download/flavours" target="_blank">Ubuntu/Debian</a> como: Linux Mint, MX Linux, u otros que no son mencionados en este post. Esto debido a que Pop OS, en caso se tenga una gráfica Nvidia, ya viene con los drivers en la instalación. Además, como es basado en Ubuntu, tiene bastante información útil por la comunidad; ya que, Ubuntu es la distro más usada actualmente.
 
 ## ¿Qué es un gestor de paquetes?
 
@@ -70,6 +70,6 @@ Gnome es el entorno de escritorio más popular y es el que viene por defecto en 
 
 En caso seas desarrollador web o alguien que hace desarrollo para multiples plataformas, las posibilidades que tengas un mejor entorno y experiencia al desarrollar, son altas. Además, con un poco de esfuerzo extra, tengas un mejor flujo de trabajo, incrementes tu productividad y a la vez tengas un conocimiento más sólido sobre sistemas operativos.
 
-Por otro lado, si dependes mucho de software, como el suit de Adobe o Microsoft Office y las alternativas de software libre no se adaptan a tus necesidades, tendrás que esperar un tiempo más hasta que puedan estar disponibles en Linux a través de <a href="https://winehq.org" target="_blank">wine</a>.
+Por otro lado, si dependes mucho de software, como el suit de Adobe o Microsoft Office y las alternativas de software libre no se adaptan a tus necesidades, tendrás que esperar un tiempo más hasta que puedan estar disponibles en Linux a través de <a rel="noreferrer" href="https://winehq.org" target="_blank">wine</a>.
 
 Sea una u otra la situación, te invito a probar una distribución de Linux, en una computadora antigua o nueva, o incluso desde un mismo USB y experimentes la `experiencia Linux`.

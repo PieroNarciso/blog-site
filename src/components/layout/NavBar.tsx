@@ -11,6 +11,7 @@ const NavBar: React.FC = () => {
         <a
           className="px-2 py-2 rounded bg-primary-dark text-white font-medium tracking-wide hover:bg-primary-darker"
           href="https://dev.pieronarciso.xyz"
+          rel="noreferrer"
           target="_blank"
         >
           Portfolio

@@ -26,7 +26,7 @@ Por lo tanto, para poder usar VIM desde la manera más básica, necesitas conoce
 
 ## ¿Cómo comenzar con VIM?
 
-Existen muchos tutoriales sobre VIM, en youtube e internet en general. El que particularmente recomiendo es la sessión de VIM de la serie de clases de <a href="https://www.youtube.com/watch?v=a6Q8Na575qc&list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&index=4&t=1537s" target="_blank">Missing Semester</a> del **MIT**. Es bastante completo, explica con más profundidad sobre los modos de VIM, y una demostración bastante dinámica de como funciona VIM en general.
+Existen muchos tutoriales sobre VIM, en youtube e internet en general. El que particularmente recomiendo es la sessión de VIM de la serie de clases de <a rel="noreferrer" href="https://www.youtube.com/watch?v=a6Q8Na575qc&list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&index=4&t=1537s" target="_blank">Missing Semester</a> del **MIT**. Es bastante completo, explica con más profundidad sobre los modos de VIM, y una demostración bastante dinámica de como funciona VIM en general.
 
 Por otro lado, VIM tiene su propio tutorial `vimtutor` que viene al instalar el programa al PC, es una guía oficial del mismo equipo de desarrolladores.
 
