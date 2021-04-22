@@ -1,6 +1,6 @@
 import { graphql } from "gatsby";
 import React from "react";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 
 import Layout from "../components/Layout";
 import CardBlog from "../components/ui/CardBlog";
@@ -27,10 +27,13 @@ const Home: React.FC<HomeProps> = ({ data }) => {
 
   return (
     <Layout>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "es" }}>
         <title>Piero's Blog</title>
         <meta name="author" content="Piero Narciso Ancalle" />
-        <meta name="description" content="Este es un blog creado por Piero Narciso Ancalle para escribir sobre tecnologías, programación, frameworks de desarrollo web, entre otros."/>
+        <meta
+          name="description"
+          content="Este es un blog creado por Piero Narciso Ancalle para escribir sobre tecnologías, programación, frameworks de desarrollo web, entre otros."
+        />
         <meta name="keywords" content="linux,vim,blog,vue,react" />
         <meta name="robots" content="index,follow" />
       </Helmet>
@@ -50,18 +53,18 @@ const Home: React.FC<HomeProps> = ({ data }) => {
 };
 
 export const pageQuery = graphql`
-query Projects {
-  allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
-    nodes {
-      frontmatter {
-        date
-        slug
-        title
-        description
+  query Projects {
+    allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+      nodes {
+        frontmatter {
+          date
+          slug
+          title
+          description
+        }
       }
     }
   }
-}
 `;
 
 export default Home;

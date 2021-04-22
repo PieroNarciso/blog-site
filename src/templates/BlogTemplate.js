@@ -1,18 +1,18 @@
 import { graphql } from "gatsby";
 import React from "react";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 
 import Layout from "../components/Layout";
 
 export default function BlogTemplate({ data }) {
   const { markdownRemark } = data;
-  const { frontmatter ,html } = markdownRemark;
+  const { frontmatter, html } = markdownRemark;
   return (
     <Layout>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "es" }}>
         <title>Piero's Blog | {frontmatter.title}</title>
-      <meta name="author" content="Piero Narciso Ancalle" />
-        <meta name="description" content={frontmatter.description}/>
+        <meta name="author" content="Piero Narciso Ancalle" />
+        <meta name="description" content={frontmatter.description} />
         <meta name="keywords" content={frontmatter.keywords} />
       </Helmet>
       <div>
