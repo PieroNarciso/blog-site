@@ -42,19 +42,18 @@ const Home: React.FC<HomeProps> = ({ data }) => {
 };
 
 export const pageQuery = graphql`
-  query Projects {
-    allMarkdownRemark {
-      nodes {
-        frontmatter {
-          date
-          slug
-          description
-          title
-        }
-        id
+query Projects {
+  allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+    nodes {
+      frontmatter {
+        date
+        slug
+        title
+        description
       }
     }
   }
+}
 `;
 
 export default Home;
