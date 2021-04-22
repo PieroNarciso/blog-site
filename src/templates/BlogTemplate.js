@@ -1,5 +1,6 @@
 import { graphql } from "gatsby";
 import React from "react";
+import { Helmet } from 'react-helmet';
 
 import Layout from "../components/Layout";
 
@@ -8,6 +9,12 @@ export default function BlogTemplate({ data }) {
   const { frontmatter ,html } = markdownRemark;
   return (
     <Layout>
+      <Helmet>
+        <title>Piero's Blog | {frontmatter.title}</title>
+      <meta name="author" content="Piero Narciso Ancalle" />
+        <meta name="description" content={frontmatter.description}/>
+        <meta name="keywords" content={frontmatter.keywords} />
+      </Helmet>
       <div>
         <h1 className="text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           {frontmatter.title}
@@ -32,6 +39,8 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         slug
+        keywords
+        description
         title
       }
     }
