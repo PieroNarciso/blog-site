@@ -10,7 +10,7 @@ const NavBar: React.FC = () => {
       <div>
         <a
           className="px-2 py-2 rounded bg-primary-dark text-white font-medium tracking-wide hover:bg-primary-darker"
-          href="https://dev.pieronarciso.xyz"
+          href="https://dev.pieronarciso.com"
           rel="noreferrer"
           target="_blank"
         >
